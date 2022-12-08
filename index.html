@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <title>Document</title>
+  <!-- fontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- normalize css -->
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  
+</head>
+<body>
+  <main>
+    <div class="card-container ">
+      <div class="icon-container">
+        <img src="./images/icon-star.svg" alt="icon" class="icon-img">
+        
+      </div>
+     
+      <h1 class="question-line">How did We do?</h1>
+      <p class="para-content">please let us know how we did with your support request.All feedback is appreciated to help us improve our offering! </p>
+      <div class="btn-container">
+
+        <!-- <input type="button" name="rating" value="1" class="btn">
+        <input type="button" name="rating" value="2" class="btn">
+        <input type="button"  name="rating" value="3" class="btn">
+        <input type="button"  name="rating" value="4" class="btn">
+        <input type="button" name="rating" value="5" class="btn"> -->
+        
+        <button class=" btn btn-1" id="btn-rating">1</button>
+        <button class="btn btn-2" id="btn-rating">2</button>
+        <button class="btn btn-3" id="btn-rating">3</button>
+        <button class="btn btn-4" id="btn-rating">4</button>
+        <button class="btn btn-5" id="btn-rating">5</button>
+      </div>
+      <button class="submit-btn">submit</button>
+    </div>
+
+
+    <!-- thank you card  -->
+
+    <div class="thankyou-container hidden">
+      <div class="img-container">
+        <img src="./images/illustration-thank-you.svg" alt="" class="thank-img">
+    
+      </div>
+      
+    <div class="rating-content">
+      <p class="rating-line">you selected <span class="rating"></span> out of 5</p>
+    </div>
+    <h1 class="thank-line">Thank You!
+    </h1>
+    <p class="thank-para">We appreciate you taking the time to give a rating. if you ever need more support,don't hesitate to get in touch!</p>
+    <button class="rate-btn">Rate again</button>
+  </div>
+  </main>
+  
+  
+
+<!-- script js -->
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

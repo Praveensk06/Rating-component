@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size: 16px;
+}
+:root{
+--Orange: hsl(25, 97%, 53%);
+--White: hsl(0, 0%, 100%);
+--Light-Grey: hsl(217, 12%, 63%);
+--Medium-Grey: hsl(216, 12%, 54%);
+--Dark-Blue: hsl(213, 19%, 18%);
+--Very-Dark-Blue: hsl(216, 12%, 8%);
+
+}
+img{
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style:none;
+}
+
+
+
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: beige;
+  display: flex;
+  justify-content:center; 
+  align-items: center;
+  background-color: var(--Very-Dark-Blue);
+
+}
+.icon-container{
+  width: 30px;
+  background-color: aliceblue;
+  border-radius: ;
+}
+.icon-img{
+  width: 30px;
+  padding: 0.2rem;
+
+
+}
+.question-line{
+  width: 18rem;
+  font-size: 1.5rem;
+  color: var(--White);
+}
+.para-content{
+  color: var(--Light-Grey);
+}
+.card-container, .thankyou-container{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:var(--Dark-Blue);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+.btn{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  background-color:var(--Medium-Grey);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.btn-container :hover{
+  background-color:var(--Light-Grey);
+}
+
+.submit-btn, .rate-btn{
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+  border: none;
+  padding: 0.4rem;
+  background-color: var(--Orange);
+  color: var(--White);
+  cursor: pointer;
+}
+.thank-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 110px;
+}
+.rating-content{
+  display: flex;
+  justify-content: center;
+  margin: 1.4rem auto;
+  color: var(--Orange);
+  background-color:var(--Light-Grey);
+  width: 11rem;
+  padding:0.5rem;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.thank-line{
+  margin: auto;
+  font-size: 25px;
+  color: var(--White);
+}
+.thank-para{
+  font-size: 17px;
+  text-align: center;
+  color: var(--Light-Grey);
+}
+/* hidden the display */
+.hidden{
+  display: none;
+}
